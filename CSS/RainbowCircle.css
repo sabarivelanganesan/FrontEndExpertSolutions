@@ -1,0 +1,32 @@
+/*  Write your code here. */
+
+/* Delete this ruleset. */
+body {
+    background-color: grey;
+  }
+  #inner {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #800080;
+    border: 25px solid #0000ff; 
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+  }
+  #middle {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #008000;
+    border: 25px solid #ffff00; 
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+  }
+  #outer {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #ffa500;
+    border: 25px solid #ff0000; 
+    width: 300px;
+    height: 300px;
+  }

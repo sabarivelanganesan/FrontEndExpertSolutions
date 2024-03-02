@@ -1,0 +1,32 @@
+/*  Write your code here. */
+
+/* Delete this ruleset. */
+:root {
+    --font-size: 18px;
+  }
+  body {
+    background-color: grey;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6e072d;
+    color: white;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    font-size: var(--font-size);
+    padding: var(--font-size) calc(var(--font-size) * 1.5);
+  }
+  li:not(:last-child) {
+    border-right: 2px solid white;
+  }
+  li:hover {
+    background-color: #b90e4d;
+    cursor: pointer;
+  }

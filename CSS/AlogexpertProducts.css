@@ -1,0 +1,56 @@
+/*  Write your code here. */
+
+#algo-expert {
+    /*  Write your code here. */
+    flex-basis: 75%;
+    margin: 0 auto;
+    order: 2;
+    background-color: #626ee3;
+  }
+  
+  #systems-expert {
+    /*  Write your code here. */
+    flex-basis: 50%;
+    align-self: center;
+    background-color: #890023;
+  }
+  
+  #ml-expert {
+    /*  Write your code here. */
+    flex-basis: 30%;
+    height: 75px;
+    background-color: #f37f1b;
+  }
+  
+  #frontend-expert {
+    /*  Write your code here. */
+    order: 3;
+    flex-basis: 40%;
+    align-self: flex-end;
+    background-color: #11967e;
+  }
+  
+  #programming-expert {
+    /*  Write your code here. */
+    order: 4;
+    height: 75px;
+    background-color: #f21b3f;
+    flex-grow: 1;
+    
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  #wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px 10px;
+  }

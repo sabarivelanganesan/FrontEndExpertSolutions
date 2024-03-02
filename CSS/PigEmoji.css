@@ -1,0 +1,68 @@
+
+
+.head {
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: #ffc0cb;
+    margin-top: 20px;
+  }
+  .ear {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: #ffc0cb;
+  }
+  .ear:first-of-type {
+    left: 10px;
+  }
+  .ear:last-of-type {
+    right: 10px;
+  }
+  .eye {
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height:50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .eye:first-of-type {
+    left: 30px;
+  }
+  .eye:last-of-type {
+    right: 30px;
+  }
+  .pupil {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+    margin: 25% auto;
+  }
+  .nose {
+    width: 100px;
+    height: 60px;
+    border-radius: 35%;
+    background-color: #f57187;
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+  }
+  .nostril {
+    width: 25px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+  }
